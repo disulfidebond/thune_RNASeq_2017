@@ -18,7 +18,7 @@ Analysis and methods for Thune Lab, second *Ictalurus Punctatus* RNASeq experime
  
   * Thune asked for WT vs. deltaK, WT vs. uninfected, and deltaK vs. uninfected
 
-2) Thune also asked for gene descriptions.  This was setu using a bash script to parse and wrangle the data.  Note that this despearately needs to be cleaned up and formatted, but otherwise is a fully functioning and usable script to match gene names within an output dataset.
+2) Thune also asked for gene descriptions.  This was setup using a [bash script](https://github.com/disulfidebond/thune_RNASeq_2017/blob/master/findGeneAnnotation.sh) to parse and wrangle the data, that used a [second helper script](https://github.com/disulfidebond/thune_RNASeq_2017/blob/master/findGeneProduct.sh), a genebank file, and a single column list of the gene names (without expression or count values) from either HTSeq or DESeq2.  Note that this despearately needs to be cleaned up and formatted, but otherwise is a fully functioning and usable script to match gene names within an output dataset.
 
 3) As briefly mentioned, DESeq2 was used to conduct the analysis, with default conditions and cutoffs
 

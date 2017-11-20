@@ -22,7 +22,7 @@ Analysis and methods for Thune Lab, second *Ictalurus Punctatus* RNASeq experime
 
 3) As briefly mentioned, DESeq2 was used to conduct the analysis, with default conditions and cutoffs
 
-4) A heatmap was created using a cutoff of the top 50 statistically significantly differently expressed genes for deltaK vs. uninfected and uninfected vs. WT; there were no statistically significantly differently expressed genes for deltaK vs. WT.
+4) A [heatmap](https://github.com/disulfidebond/thune_RNASeq_2017/blob/master/thune_heatmap_and_analysis.R) was created using a cutoff of the top 50 statistically significantly differently expressed genes for deltaK vs. uninfected and uninfected vs. WT; there were no statistically significantly differently expressed genes for deltaK vs. WT.
 
 5) the DESEeq2 output was sent to Thune on 11/17/2017, the output with gene descriptions and the heatmaps was sent to Thune on 11/19/2017
 
